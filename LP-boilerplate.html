@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <!-- css styles -->
+    <style>
+
+    /* general css */
+     body{
+         width:auto;
+         height:100vh; }
+     .main-content{
+         position: relative;
+        min-height: 100vh;
+         width:100%;
+         display:flex;
+         flex-direction:column;
+         align-content: center;
+     }
+     header{
+         display:flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+     .section-1{
+        width:60%;
+        margin:auto; 
+     }
+     .title{
+         
+     }
+     .title h2{
+         text-align:center;
+     }
+
+     .section-2{
+        width:60%;
+        margin:auto;
+        display:flex;
+        flex-direction:row;
+
+
+     }
+     .sub-1,.sub-2{
+         width:50%;
+     }
+
+     footer{
+         background-color: #F8F8F8;
+         position: absolute;
+         bottom: 0;
+         width: 100%;
+        
+     }
+     .footer-items{
+         display:flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+     }
+
+    /* tablet css */
+    @media only screen and (max-width: 1000px) {
+        .section-2{
+        width:60%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+
+
+     }
+        .sub-1,.sub-2{
+         width:100%;
+     }
+    }  
+    /* mobile css */
+    @media only screen and (max-width: 600px) {
+
+ 
+    } 
+    </style>
+</head>
+<body>
+    <div class="main content">
+         <header>
+             <div class="logo">
+               <p>logo</p>
+             </div>
+             <div class="nav">
+                <p>nav</p>
+             </div>
+             <div class="log-in">
+                <p>login</p>
+             </div>
+
+         </header>
+         <div class="section-1">
+            <div class="title">
+                <h2>TITLE SECTION</h2>
+            </div>
+         </div>
+         <div class="section-2">
+             <div class="sub-1">
+                 <h3>Subtitle</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus expedita repellendus consequatur possimus quisquam pariatur quod quas optio maiores, odit quam officia? Harum, cupiditate quod! Amet saepe similique quod!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus expedita repellendus consequatur possimus quisquam pariatur quod quas optio maiores, odit quam officia? Harum, cupiditate quod! Amet saepe similique quod!
+                </p>
+             </div>
+             <div class="sub-2">
+                 <p style="text-align:center;">This is where the form code will go</p>
+
+             </div>
+
+        </div>
+        <footer>
+            <div class="footer-items">
+                <div class="footer-col">
+                   <p>col one </p>
+                </div>
+                <div  class="footer-col">
+                    <p>col two </p>
+                </div>
+                <div  class="footer-col">
+                    <p>col three</p>
+                </div>
+                <div  class="footer-col">
+                    <p>col four</p>
+                </div>
+            </div>
+            <div class="footer-social">
+                 <p>
+                     social items/copy right
+                 </p>
+            </div>
+
+        </footer>
+    </div>
+    
+</body>
+</html>
